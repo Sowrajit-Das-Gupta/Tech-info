@@ -188,7 +188,6 @@
           </div>
         </div>
       </section>
-        
        <section class="d-grid justify-content-center mt-5">
         <div class="card  mb-3 mt-5" style="max-width: 1183px;">
           <div class="row g-0">
@@ -216,7 +215,7 @@
                 </div>
               </div>
               <div class="text-center">
-                <button class="btn btn-primary px-5 mb-3">Read more</button>
+                <button class="btn btn-primary modal-body px-5 mb-3">Read more</button>
               </div>
             </div>
           </div>
@@ -226,7 +225,30 @@
         <div class="text-center bg-info text-white rounded p-4">
           <h1>Ready to join?</h1>
           <h3 class="mt-5">It is a long established fact that a reader will be distracted by the <br> readable content of a page when looking at its layout.</h3>
-          <button class="btn bg-white text-dark mt-3">Registration</button>
+          <button>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Register
+            </button>
+            
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    ...Graduate courses are taught by Stanford faculty and experienced industry professionals. Imagine what you can achieve with the power of world-class education. Earn a Stanford University transcript and academic credit on a part-time, flexible schedule
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div></button>
         </div>
        </section>
        <section class="mt-5">
